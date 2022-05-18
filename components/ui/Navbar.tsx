@@ -13,7 +13,7 @@ export const Navbar = () => {
 				flexDirection: 'row',
 				alignItems: 'center',
 				justifyContent: 'start',
-				padding: '0px 2px',
+				padding: '0 20px',
 				backgroundColor: '#161616'
 				// backgroundColor: theme?.colors.gray100.value
 			}}
@@ -39,7 +39,7 @@ export const Navbar = () => {
 			<Spacer css={{ flex: 1 }} />
 
 			<NextLink href="/favorites" passHref>
-				<Link css={{ marginRight: '10px' }}>
+				<Link>
 					<Text color="white">Favoritos</Text>
 				</Link>
 			</NextLink>
