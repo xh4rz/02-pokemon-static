@@ -13,7 +13,8 @@ export const Navbar = () => {
 				alignItems: 'center',
 				justifyContent: 'start',
 				padding: '0px 2px',
-				backgroundColor: theme?.colors.gray100.value
+				backgroundColor: '#161616'
+				// backgroundColor: theme?.colors.gray100.value
 			}}
 		>
 			<Image
